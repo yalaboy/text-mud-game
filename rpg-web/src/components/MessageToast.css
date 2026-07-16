@@ -1,0 +1,14 @@
+.message-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(40, 40, 70, 0.9);
+  color: #dcc832;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  pointer-events: none;
+  z-index: 100;
+  white-space: nowrap;
+}

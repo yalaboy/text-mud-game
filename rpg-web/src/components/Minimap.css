@@ -1,0 +1,21 @@
+.minimap {
+  background: rgba(20, 20, 40, 0.85);
+  border: 2px solid #3c3c50;
+  border-radius: 8px;
+  padding: 8px;
+  width: 290px;
+}
+.minimap-title {
+  font-size: 13px;
+  color: #32c8dc;
+  margin-bottom: 4px;
+}
+.minimap-svg {
+  width: 100%;
+  height: auto;
+}
+.minimap-label {
+  fill: #787878;
+  font-size: 11px;
+  font-family: inherit;
+}

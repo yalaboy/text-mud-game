@@ -1,0 +1,34 @@
+.game-btn {
+  padding: 10px 24px;
+  border: 2px solid rgba(180, 180, 220, 0.5);
+  border-radius: 8px;
+  background: #46467a;
+  color: #dcdcdc;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.game-btn:hover:not(:disabled) {
+  background: #6464a0;
+  border-color: rgba(180, 180, 220, 0.8);
+}
+.game-btn:disabled {
+  background: #3c3c50;
+  border-color: #787878;
+  color: #787878;
+  cursor: not-allowed;
+}
+.game-btn.red { background: #8c3232; border-color: #dc3232; }
+.game-btn.red:hover:not(:disabled) { background: #b43232; }
+.game-btn.green { background: #326e3c; border-color: #32c850; }
+.game-btn.green:hover:not(:disabled) { background: #3c8c46; }
+.game-btn.blue { background: #324a8c; border-color: #5082dc; }
+.game-btn.blue:hover:not(:disabled) { background: #3c5eaa; }
+.game-btn.yellow { background: #8c7832; border-color: #dcc832; }
+.game-btn.yellow:hover:not(:disabled) { background: #aa963c; }
+.game-btn.cyan { background: #32788c; border-color: #32c8dc; }
+.game-btn.cyan:hover:not(:disabled) { background: #3c96aa; }
+.game-btn.magenta { background: #8c328c; border-color: #c832c8; }
+.game-btn.magenta:hover:not(:disabled) { background: #aa3caa; }

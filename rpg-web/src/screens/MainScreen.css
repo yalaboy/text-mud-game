@@ -1,0 +1,93 @@
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main-panel {
+  flex: 1;
+  background: rgba(40, 40, 70, 0.95);
+  border: 2px solid #32c8dc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  overflow: hidden;
+}
+.main-content {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+.main-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.main-right {
+  display: flex;
+  align-items: flex-start;
+}
+.location-name {
+  font-size: 32px;
+  color: #32c8dc;
+  margin: 0;
+}
+.location-desc {
+  font-size: 14px;
+  color: #787878;
+  margin: 0 0 8px;
+}
+.stat-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.stat-label {
+  font-size: 18px;
+  color: #dcc832;
+  font-weight: bold;
+}
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bar-label {
+  font-size: 13px;
+  width: 24px;
+}
+.bar-label.green, .bar-text.green { color: #32c850; }
+.bar-label.blue, .bar-text.blue { color: #5082dc; }
+.bar-text {
+  font-size: 13px;
+}
+.stat-text {
+  font-size: 13px;
+  color: #dcdcdc;
+}
+.stat-text.yellow { color: #dcc832; }
+.stats-line {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.equip-row { margin-top: 2px; }
+.equip-text { font-size: 13px; color: #32c8dc; }
+.npc-row { margin-top: 4px; }
+.npc-text { font-size: 13px; color: #c832c8; }
+.exits-row { margin-top: 4px; }
+.exits-text { font-size: 13px; color: #787878; }
+.action-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+}
+.action-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.action-row .game-btn {
+  min-width: 130px;
+}

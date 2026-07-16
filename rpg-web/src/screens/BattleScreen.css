@@ -1,0 +1,58 @@
+.battle-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.battle-panel {
+  flex: 1;
+  background: rgba(60, 20, 20, 0.95);
+  border: 2px solid #dc3232;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.battle-title {
+  font-size: 32px;
+  margin: 0;
+}
+.battle-title.red { color: #dc3232; }
+.battle-enemy, .battle-player {
+  width: 100%;
+  max-width: 500px;
+}
+.battle-name {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.battle-name.green { color: #32c850; }
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.bar-label { font-size: 13px; width: 24px; }
+.bar-label.red, .bar-text.red { color: #dc3232; }
+.bar-label.green, .bar-text.green { color: #32c850; }
+.bar-label.blue, .bar-text.blue { color: #5082dc; }
+.bar-text { font-size: 13px; }
+.battle-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+.battle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 280px;
+}
+.battle-list .game-btn {
+  width: 100%;
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e32;
+  color: #dcdcdc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-lg {
+  font-size: 32px;
+  color: #dcc832;
+  margin: 0;
+}
+
+/* Shared list screen styles */
+.list-screen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-panel {
+  flex: 1;
+  background: rgba(40, 40, 70, 0.95);
+  border: 2px solid #3c3c50;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.list-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.list-title.cyan { color: #32c8dc; }
+.list-title.magenta { color: #c832c8; }
+.list-title.yellow { color: #dcc832; }
+
+.list-subtitle {
+  font-size: 16px;
+  color: #dcc832;
+  margin-bottom: 12px;
+}
+
+.list-scroll {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 8px;
+}
+
+.list-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.list-scroll::-webkit-scrollbar-thumb {
+  background: #3c3c50;
+  border-radius: 3px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: rgba(60, 60, 100, 0.4);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.list-item.clickable {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.list-item.clickable:hover {
+  background: rgba(80, 80, 140, 0.6);
+}
+
+.list-item-name {
+  min-width: 160px;
+  color: #dcdcdc;
+}
+.list-item-desc {
+  color: #787878;
+  font-size: 13px;
+}
+.list-item-status {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: bold;
+}
+.color-green { color: #32c850; }
+.color-yellow { color: #dcc832; }
+.color-red { color: #dc3232; }
+
+.list-empty {
+  color: #787878;
+  font-style: italic;
+}
+
+.list-footer {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #787878;
+  text-align: right;
+}
+
+.action-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 10px;
+}

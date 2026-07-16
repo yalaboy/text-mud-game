@@ -1,0 +1,73 @@
+.quest-screen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.quest-panel {
+  flex: 1;
+  background: rgba(40, 40, 70, 0.95);
+  border: 2px solid #c832c8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  overflow-y: auto;
+}
+.quest-title {
+  font-size: 28px;
+  color: #c832c8;
+  margin: 0 0 4px;
+}
+.quest-subtitle {
+  font-size: 14px;
+  color: #787878;
+  font-style: italic;
+  margin: 0 0 16px;
+}
+.quest-section {
+  margin-bottom: 16px;
+}
+.section-header {
+  font-size: 16px;
+  color: #dcc832;
+  margin: 0 0 8px;
+  border-bottom: 1px solid #3c3c50;
+  padding-bottom: 4px;
+}
+.quest-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: rgba(60, 60, 100, 0.4);
+  border-radius: 6px;
+  margin-bottom: 6px;
+  gap: 12px;
+}
+.quest-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+.quest-name {
+  font-size: 14px;
+  color: #dcdcdc;
+  font-weight: bold;
+}
+.quest-desc {
+  font-size: 12px;
+  color: #787878;
+}
+.quest-reward {
+  font-size: 12px;
+  color: #dcc832;
+}
+.quest-progress {
+  font-size: 12px;
+  color: #5082dc;
+  font-weight: bold;
+}
+.quest-empty {
+  color: #787878;
+  font-style: italic;
+}

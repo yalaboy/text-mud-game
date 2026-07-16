@@ -1,0 +1,24 @@
+.menu-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 8px;
+}
+.title-xl {
+  font-size: 48px;
+  color: #dcc832;
+  margin: 0;
+}
+.subtitle {
+  font-size: 24px;
+  color: #32c8dc;
+  margin: 0 0 40px;
+}
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 200px;
+}
